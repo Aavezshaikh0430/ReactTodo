@@ -327,8 +327,8 @@ span {
     border-radius: 30px;
     transition: background-color 200ms ease-in-out;
     background-color: #f2f3f4;
-    min-width: 27rem;
-    max-width: 30rem;
+    min-width: 18rem;
+    max-width: 24rem;
     padding: 0.5rem 0.5rem;
     display: grid;
     grid-template-columns: 1fr 0.3fr 0.3fr;
