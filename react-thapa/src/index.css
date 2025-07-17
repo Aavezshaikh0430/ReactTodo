@@ -7,7 +7,7 @@ global custom css hai . ye css har file me jaha bhi css ki zarorat hai ye use ho
 @tailwind components;
 @tailwind utilities;
 
-*{
+/* *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,7 +15,7 @@ global custom css hai . ye css har file me jaha bhi css ki zarorat hai ye use ho
 }
 html{
   font-size: 62.5%;
-}
+} */
 /* h1,h2,h3,h4,h5,h6{
   color: var(--heading-color);
   font-family: 'Poppins', sans-serif;
@@ -56,7 +56,7 @@ a{
   --bnt-box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px; 
 } */
 
-:root {
+/* :root {
   --primary-color : #1c2833;
   --secoundary-color: #fff;
   --bg-color: #f2f3f4;
@@ -75,7 +75,7 @@ h6{
 h1{
   font-size: 3.2rem;
   font-weight: bold;
-}
+} */
 /* layout */
 
 /* .container{

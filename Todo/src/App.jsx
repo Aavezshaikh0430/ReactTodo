@@ -1,10 +1,12 @@
 import "./App.css";
-import { Todo } from "./components/Todo";
+import { Keys } from "./components/Keys";
+// import { TodoForm } from "./components/TodoForm";
 
 function App() {
   return (
     <>
-      <Todo />
+      {/* <Todo /> */}
+      <Keys />
     </>
   );
 }

@@ -1,0 +1,153 @@
+.main-container4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(237, 233, 233);
+
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+    height: 90vh;
+    width: 35vw;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.span {
+    color: #008CBA;
+    text-decoration: none;
+}
+
+.input1 {
+
+    background-color: rgb(237, 233, 233);
+    border: none;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.btn2 {
+    border: none;
+    padding: 8px 82px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    background-color: #008CBA;
+    color: white;
+    border: 2px solid #008CBA;
+    border-radius: 8px;
+}
+
+.btn2:hover {
+    background-color: white;
+    color: #008CBA;
+}
+
+.input-container {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+};
+
+
+
+@media (max-width: 700px) {
+  .main-content{
+    width: 65vw;
+    padding: 10px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .main-content{
+    width: 80vw;
+    padding: 10px;
+
+  }
+
+  .input1 {
+
+    background-color: rgb(237, 233, 233);
+    border: none;
+    width: 15rem;
+    height: 1.9rem;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    font-size: 15px;
+    padding: 6px;
+}
+.btn2 {
+    border: none;
+    padding: 5px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    background-color: #008CBA;
+    color: white;
+    border: 2px solid #008CBA;
+    border-radius: 8px;
+}
+}
+
+@media (max-width: 1050px) {
+  .main-content{
+    width: 55vw;
+    padding: 10px;
+
+  }
+}
+
+@media (max-width: 450px) {
+  .main-content{
+    width: 80vw;
+    padding: 10px;
+
+  }
+}
+
+
+@media (max-width: 300px) {
+  .main-content{
+    width: 90vw;
+    padding: 10px;
+
+  }
+}
+
+@media (max-width: 290px) {
+  .main-content{
+    width: 80vw;
+    padding: 10px;
+
+  }
+}

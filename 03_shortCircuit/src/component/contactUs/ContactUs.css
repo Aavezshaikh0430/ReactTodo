@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(200, 203, 206);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content-container{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    height: 70vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.btn-message{
+    border: none;
+    padding: 8px 82px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    background-color: #008CBA;
+    color: white;
+    border: 2px solid #008CBA;
+    border-radius: 8px;
+}
+.btn-message:hover {
+    background-color: white;
+    color: #008CBA;
+}
+
+
+.input-class{
+    background-color: rgb(237, 233, 233);
+    border: none;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.textAreaClass{
+    background-color: rgb(237, 233, 233);
+    border: none;
+   
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 10px;
+}
+.labels{
+    font-size: 25px;
+}
+
+
+
+@media (max-width: 1200px) {
+  .content-container{
+    width: 40vw;
+    padding: 30px;
+    
+
+  }
+}
+
+@media (max-width: 830px) {
+  .content-container{
+    width: 60vw;
+    padding: 30px;
+
+  }
+}
+
+@media (max-width: 660px) {
+  .content-container{
+    width: 60vw;
+    padding: 30px;
+
+  }
+}
+
+@media (max-width: 580px) {
+  .content-container{
+    width: 70vw;
+    padding: 30px;
+
+  }
+}
+
+@media (max-width: 420px) {
+  .content-container{
+    width: 80vw;
+    padding: 30px;
+
+  }
+}
+
+@media (max-width: 350px) {
+  .content-container{
+    width: 60vw;
+    padding: 30px;
+
+  }
+
+  .input-class{
+    background-color: rgb(237, 233, 233);
+    border: none;
+    width: 10rem;
+    height: 1.2rem;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 8px;
+}
+
+.textAreaClass{
+    background-color: rgb(237, 233, 233);
+    border: none;
+   
+    border-radius: 4px;
+    font-size: 10px;
+    padding: 8px;
+}
+.labels{
+    font-size: 25px;
+}
+
+
+.btn-message{
+    border: none;
+    padding: 8px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    background-color: #008CBA;
+    color: white;
+    border: 2px solid #008CBA;
+    border-radius: 8px;
+}
+.heading{
+    font-size: 25px;
+}
+
+.labels{
+    font-size: 18px;
+}
+
+
+}
