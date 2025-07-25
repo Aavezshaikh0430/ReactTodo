@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {},
     fontFamily:{
-      display:['Syne'],
+      display:[],
     }
   },
   plugins: [],

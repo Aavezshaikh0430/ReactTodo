@@ -1,16 +1,13 @@
+import "../index.css";
 import React from "react";
-import '../index.css' 
-import{
-  DarkLight,
-  ThemeProvider,
-} from "./component3hooks/05_useContext.jsx/DarkLight";
+import { ReactMemoVsuseMemo } from "./component3hooks/09_reactMemoVSuseMemo/ReactMemoVSuseMemo";
+
+
 
 function App() {
   return (
     <>
-      <ThemeProvider>
-        <DarkLight />
-      </ThemeProvider>
+     <ReactMemoVsuseMemo />
     </>
   );
 }

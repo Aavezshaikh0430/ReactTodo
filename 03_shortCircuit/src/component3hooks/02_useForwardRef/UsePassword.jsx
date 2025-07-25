@@ -5,7 +5,13 @@ export const UsePassword = (props) => {
   return (
     <>
       <label htmlFor={Id}>{props.labels}</label>
-      <input type="password" name="password" ref={props.ref} id={Id}   autoComplete="current-password"/>
+      <input
+        type="password"
+        name="password"
+        ref={props.ref}
+        id={Id}
+        autoComplete="current-password"
+      />
     </>
   );
 };

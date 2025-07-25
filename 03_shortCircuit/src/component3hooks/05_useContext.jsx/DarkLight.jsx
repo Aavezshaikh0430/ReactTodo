@@ -31,11 +31,11 @@ export const DarkLight = () => {
     <>
       <div
         className={`p-4 flex flex-col justify-center items-center h-lvh ${
-          theme === "dark" ? "bg-gray-800 text-white" : "bg-white text-black"
+          theme === "dark" ? "bg-gray-900 text-white" : "bg-white text-black"
         }`}
       >
         <h1 className="text-4xl my-4 text-center">
-          Switch Dark and Light Theme.
+         Dark and Light Mode Theme WebSite.
         </h1>
         <p className="text-xl my-4">Welcome to React Theme. </p>
         <button
