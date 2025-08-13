@@ -8,7 +8,7 @@ import { Loading } from "./Loading";
 function AppLayout() {
 
   const navigation = useNavigation()
-  console.log(navigation);
+  // console.log(navigation);
 
   if(navigation.state === 'loading') return <Loading />
   

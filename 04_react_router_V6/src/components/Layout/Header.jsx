@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function Header() {
 
   const changeColor = ({isActive})=>{return{
-                  color: isActive ? 'green' : 'black'
+                  color: isActive ? 'blue' : 'black'
                 }}
   return (
     <>
@@ -23,7 +23,7 @@ function Header() {
 
         <div className="container">
           <div className="navbar-brand">
-            <NavLink>ThapaFlix</NavLink>
+            <NavLink>MovieFlix</NavLink>
           </div>
 
           <nav className="navbar">
@@ -36,7 +36,7 @@ function Header() {
 
               <li className="nav-item">
                 <NavLink to='/about' style={({isActive})=>{return{
-                  color: isActive ? 'red' : 'black'
+                  color: isActive ? 'blue' : 'black'
                 }}}>About</NavLink>
               </li>
 
