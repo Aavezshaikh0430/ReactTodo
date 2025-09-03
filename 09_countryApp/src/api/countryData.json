@@ -1,0 +1,75 @@
+[
+  {
+    "countryId": 1,
+    "countryName": "Finland",
+    "capital": "Helsinki",
+    "population": "5.6 million",
+    "language": "Finnish, Swedish",
+    "interestingFact": "Finland’s capital, Helsinki, is home to over 180,000 lakes in the country, and the official languages are Finnish and Swedish." 
+  },
+  {
+    "countryId": 2,
+    "countryName": "Bangladesh",
+    "capital": "Dhaka",
+    "population": "over 171 million",
+    "language": "Bengali (Bangla)",
+    "interestingFact": "Dhaka is among the most densely populated capitals—the country itself is the eighth-most populous and one of the most densely populated in the world." 
+  },
+  {
+    "countryId": 3,
+    "countryName": "Brazil",
+    "capital": "Brasília",
+    "population": "over 212 million",
+    "language": "Portuguese",
+    "interestingFact": "Brazil is the only country in the Americas where Portuguese is the official language." 
+  },
+  {
+    "countryId": 4,
+    "countryName": "Laos",
+    "capital": "Vientiane",
+    "population": "(not specified precisely)",
+    "language": "Lao (plus Khmu, Hmong, Phu Thai, Tai)",
+    "interestingFact": "Laos lists several spoken languages besides Lao, such as Khmu, Hmong, Phu Thai, and Tai." 
+  },
+  {
+    "countryId": 5,
+    "countryName": "Brunei",
+    "capital": "Bandar Seri Begawan",
+    "population": "approx. 455,858 (2023)",
+    "language": "Malay",
+    "interestingFact": "Brunei had a population of around 455,858 in 2023, with about 180,000 residents in its capital." 
+  },
+  {
+    "countryId": 6,
+    "countryName": "Australia",
+    "capital": "Canberra",
+    "population": "(not specified precisely)",
+    "language": "English (de facto)",
+    "interestingFact": "While English isn’t official in law, it’s the de facto national language; plus, over 120 Indigenous language varieties are still in use or being revived." 
+  },
+  {
+    "countryId": 7,
+    "countryName": "Japan",
+    "capital": "Tokyo",
+    "population": "(not specified precisely here)",
+    "language": "Japanese",
+    "interestingFact": "Tokyo is both the world’s most populous city and among the most natural-disaster prone cities globally." 
+  },
+  {
+    "countryId": 8,
+    "countryName": "Bolivia",
+    "capital": "La Paz (administrative), Sucre (judicial)",
+    "population": "(not specified precisely here)",
+    "language": "Spanish, Quechua, Aymara",
+    "interestingFact": "La Paz is the world’s highest capital city, sitting at about 3,869 meters above sea level." 
+  },
+  {
+    "countryId": 9,
+    "countryName": "Georgetown (Guyana)",
+    "capital": "Georgetown",
+    "population": "(not specified precisely here)",
+    "language": "English (official); Guyanese Creole widely spoken",
+    "interestingFact": "Georgetown is the only South American capital where English is official, though most speak Guyanese Creole." 
+  }
+ 
+]

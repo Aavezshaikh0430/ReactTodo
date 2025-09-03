@@ -1,0 +1,17 @@
+[
+    {
+    "icon" : "MdPlace",
+    "title" : "Find Us",
+    "details" : "Osmanabad, Maharashtra"
+    },
+      {
+    "icon" : "IoCallSharp",
+    "title" : "call Us",
+    "details" : "8208607732"
+    },
+      {
+    "icon" : "TbMailPlus",
+    "title" : "Mail Us",
+    "details" : "Aavezshaikh@0430@gmail.com"
+    }
+]
